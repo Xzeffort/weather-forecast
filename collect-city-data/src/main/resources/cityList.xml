@@ -1,0 +1,104 @@
+<province id="21" name="浙江">  
+    <city id="2101" name="杭州">  
+      <county id="210101" name="杭州" weatherCode="101210101"/>  
+      <county id="210102" name="萧山" weatherCode="101210102"/>  
+      <county id="210103" name="桐庐" weatherCode="101210103"/>  
+      <county id="210104" name="淳安" weatherCode="101210104"/>  
+      <county id="210105" name="建德" weatherCode="101210105"/>  
+      <county id="210106" name="余杭" weatherCode="101210106"/>  
+      <county id="210107" name="临安" weatherCode="101210107"/>  
+      <county id="210108" name="富阳" weatherCode="101210108"/>  
+    </city>  
+    <city id="2102" name="湖州">  
+      <county id="210201" name="湖州" weatherCode="101210201"/>  
+      <county id="210202" name="长兴" weatherCode="101210202"/>  
+      <county id="210203" name="安吉" weatherCode="101210203"/>  
+      <county id="210204" name="德清" weatherCode="101210204"/>  
+    </city>  
+    <city id="2103" name="嘉兴">  
+      <county id="210301" name="嘉兴" weatherCode="101210301"/>  
+      <county id="210302" name="嘉善" weatherCode="101210302"/>  
+      <county id="210303" name="海宁" weatherCode="101210303"/>  
+      <county id="210304" name="桐乡" weatherCode="101210304"/>  
+      <county id="210305" name="平湖" weatherCode="101210305"/>  
+      <county id="210306" name="海盐" weatherCode="101210306"/>  
+    </city>  
+    <city id="2104" name="宁波">  
+      <county id="210401" name="宁波" weatherCode="101210401"/>  
+      <county id="210402" name="慈溪" weatherCode="101210403"/>  
+      <county id="210403" name="余姚" weatherCode="101210404"/>  
+      <county id="210404" name="奉化" weatherCode="101210405"/>  
+      <county id="210405" name="象山" weatherCode="101210406"/>  
+      <county id="210406" name="宁海" weatherCode="101210408"/>  
+      <county id="210407" name="北仑" weatherCode="101210410"/>  
+      <county id="210408" name="鄞州" weatherCode="101210411"/>  
+      <county id="210409" name="镇海" weatherCode="101210412"/>  
+    </city>  
+    <city id="2105" name="绍兴">  
+      <county id="210501" name="绍兴" weatherCode="101210501"/>  
+      <county id="210502" name="诸暨" weatherCode="101210502"/>  
+      <county id="210503" name="上虞" weatherCode="101210503"/>  
+      <county id="210504" name="新昌" weatherCode="101210504"/>  
+      <county id="210505" name="嵊州" weatherCode="101210505"/>  
+    </city>  
+    <city id="2106" name="台州">  
+      <county id="210601" name="台州" weatherCode="101210601"/>  
+      <county id="210602" name="玉环" weatherCode="101210603"/>  
+      <county id="210603" name="三门" weatherCode="101210604"/>  
+      <county id="210604" name="天台" weatherCode="101210605"/>  
+      <county id="210605" name="仙居" weatherCode="101210606"/>  
+      <county id="210606" name="温岭" weatherCode="101210607"/>  
+      <county id="210607" name="洪家" weatherCode="101210609"/>  
+      <county id="210608" name="临海" weatherCode="101210610"/>  
+      <county id="210609" name="椒江" weatherCode="101210611"/>  
+      <county id="210610" name="黄岩" weatherCode="101210612"/>  
+      <county id="210611" name="路桥" weatherCode="101210613"/>  
+    </city>  
+    <city id="2107" name="温州">  
+      <county id="210701" name="温州" weatherCode="101210701"/>  
+      <county id="210702" name="泰顺" weatherCode="101210702"/>  
+      <county id="210703" name="文成" weatherCode="101210703"/>  
+      <county id="210704" name="平阳" weatherCode="101210704"/>  
+      <county id="210705" name="瑞安" weatherCode="101210705"/>  
+      <county id="210706" name="洞头" weatherCode="101210706"/>  
+      <county id="210707" name="乐清" weatherCode="101210707"/>  
+      <county id="210708" name="永嘉" weatherCode="101210708"/>  
+      <county id="210709" name="苍南" weatherCode="101210709"/>  
+    </city>  
+    <city id="2108" name="丽水">  
+      <county id="210801" name="丽水" weatherCode="101210801"/>  
+      <county id="210802" name="遂昌" weatherCode="101210802"/>  
+      <county id="210803" name="龙泉" weatherCode="101210803"/>  
+      <county id="210804" name="缙云" weatherCode="101210804"/>  
+      <county id="210805" name="青田" weatherCode="101210805"/>  
+      <county id="210806" name="云和" weatherCode="101210806"/>  
+      <county id="210807" name="庆元" weatherCode="101210807"/>  
+      <county id="210808" name="松阳" weatherCode="101210808"/>  
+      <county id="210809" name="景宁" weatherCode="101210809"/>  
+    </city>  
+    <city id="2109" name="金华">  
+      <county id="210901" name="金华" weatherCode="101210901"/>  
+      <county id="210902" name="浦江" weatherCode="101210902"/>  
+      <county id="210903" name="兰溪" weatherCode="101210903"/>  
+      <county id="210904" name="义乌" weatherCode="101210904"/>  
+      <county id="210905" name="东阳" weatherCode="101210905"/>  
+      <county id="210906" name="武义" weatherCode="101210906"/>  
+      <county id="210907" name="永康" weatherCode="101210907"/>  
+      <county id="210908" name="磐安" weatherCode="101210908"/>  
+    </city>  
+    <city id="2110" name="衢州">  
+      <county id="211001" name="衢州" weatherCode="101211001"/>  
+      <county id="211002" name="常山" weatherCode="101211002"/>  
+      <county id="211003" name="开化" weatherCode="101211003"/>  
+      <county id="211004" name="龙游" weatherCode="101211004"/>  
+      <county id="211005" name="江山" weatherCode="101211005"/>  
+      <county id="211006" name="衢江" weatherCode="101211006"/>  
+    </city>  
+    <city id="2111" name="舟山">  
+      <county id="211101" name="舟山" weatherCode="101211101"/>  
+      <county id="211102" name="嵊泗" weatherCode="101211102"/>  
+      <county id="211103" name="岱山" weatherCode="101211104"/>  
+      <county id="211104" name="普陀" weatherCode="101211105"/>  
+      <county id="211105" name="定海" weatherCode="101211106"/>  
+    </city>  
+  </province>  
