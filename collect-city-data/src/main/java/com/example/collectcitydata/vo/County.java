@@ -16,8 +16,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class County {
 
-    @XmlAttribute(name = "id")
-    private String countyId;
+    @XmlAttribute(name = "weatherCode")
+    private String weatherCode;
 
     @XmlAttribute(name = "name")
     private String countyName;
