@@ -24,12 +24,12 @@ public class CityDataController {
     @Autowired
     private CountyDataService countyDataService;
 
-    @RequestMapping("/weather/cityList")
+    @RequestMapping("/cityList")
     private List<City> listCity() throws Exception {
         return cityDataService.getCityData();
     }
 
-    @RequestMapping("weather/countyList/{cityName}")
+    @RequestMapping("/countyList/{cityName}")
     private List<County> listCounty(@PathVariable(value = "cityName") String cityName) throws Exception {
         return countyDataService.getCountyList(cityName);
     }
