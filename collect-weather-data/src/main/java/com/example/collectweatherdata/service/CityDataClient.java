@@ -1,5 +1,6 @@
 package com.example.collectweatherdata.service;
 
+import com.example.collectweatherdata.service.fallback.CityDatClientFallback;
 import com.example.collectweatherdata.vo.City;
 import com.example.collectweatherdata.vo.County;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -12,13 +13,13 @@ import java.util.List;
  * @author CookiesEason
  * 2018/04/20 19:34
  */
-@FeignClient(name = "weather-zuul")
+@FeignClient(name = "collect-city-data",fallback = CityDatClientFallback.class)
 public interface CityDataClient {
 
-    @RequestMapping("/weather-city/cityList")
+    @RequestMapping("/cityList")
     List<City> listCity() throws Exception;
 
-    @RequestMapping("/weather-city/countyList/{cityName}")
+    @RequestMapping("/countyList/{cityName}")
     List<County> listCounty(@PathVariable(value = "cityName") String cityName) throws Exception;
 
 }
