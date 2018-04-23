@@ -6,9 +6,61 @@
     <title>天气预报</title>
 </head>
 <body>
-
+    <div class="container">
+        <div class="row">
+            <h1>天气预报</h1>
+            <select class="custom-select" id="selectCityName">
+                <option th:each="city : ${cityList}" th:value="${city.cityName}" th:text="${city.cityName}"
+                        th:selected="${city.cityName eq cityName}">
+                </option>
+            </select>
+            <select class="custom-select" id="selectCountyName">
+                <option th:each="county : ${countyList}" th:value="${county.countyName}" th:text="${county.countyName}"
+                        th:selected="${county.countyName eq countyName}">
+                </option>
+            </select>
+        </div>
+        <div th:if="${report}!=null">
+            <div class="row">
+                <h1 class="text-success" th:text="${report.city}">深圳</h1>
+            </div>
+            <div class="row">
+                <p>
+                    空气质量指数：<span th:text="${report.aqi}"></span>
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    当前温度：<span th:text="${report.wendu}"></span>
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    温馨提示：<span th:text="${report.ganmao}"></span>
+                </p>
+            </div>
+            <div class="row">
+                <div class="card border-info" th:each="forecast : ${report.forecast}">
+                    <div class="card-body text-info">
+                        <p class="card-text" th:text="${forecast.date}">日期</p>
+                        <p class="card-text" th:text="${forecast.type}">天气类型</p>
+                        <p class="card-text" th:text="${forecast.high}">最高温度</p>
+                        <p class="card-text" th:text="${forecast.low}">最低温度</p>
+                        <p class="card-text" th:text="${forecast.fengxiang}">风向</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div th:if="${report}==null">
+            <div class="row">
+                <p>天气数据API暂时不可用使用</p>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" th:src="@{/report.js}"></script>
 </html>
